@@ -1,0 +1,103 @@
+/*NÃO FOI PEDIDO A PARTE DE RESPONSIVIDADE DO SITE, PORÉM ESTA FALTANDO NO MESMO, ASSIM QUE TIVER TEMPO PARA FAZER O UPGRADE, IREI FINALIZÁ-LO!!*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Ubuntu:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --caixa-img: #000;
+
+    background-color: #191919;
+}
+
+.cabecalho {
+    padding: 1.3rem 17rem;
+}
+
+.titulo_cabecalho {
+    background-color: #101010;
+    text-align: center;
+    color: #fff;
+    font-family: ubuntu;
+    border-radius: 20px;
+    padding: 1rem 0;
+    margin: 0 0.2rem;
+    box-shadow: 7px 8px 8px var(--caixa-img);
+}
+
+.titulo_cabecalho:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    flex-direction: column;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+.imgquadro{
+    height: 29rem;
+    width: 18.5vw;
+    border-radius: 20px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42rem;
+}
+
+.nome {
+    background-color: #101010;
+    height: 34rem;
+    width: 26rem;
+    border-radius: 20px;
+    margin: 1.7rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 7px 8px 8px var(--caixa-img)
+}
+
+.texto_quadro {
+    color: #fff;
+    font-family: quicksand;
+    font-size: 2rem;
+    padding: 0.4rem;
+}
+
+img {
+    transition: opacity 0.5s;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.rodape {
+    padding: 1.3rem 17rem;
+}
+
+.caixa_rodape {
+    background-color: #101010;
+    text-align: center;
+    color: #fff;
+    font-family: quicksand;
+    border-radius: 1.5rem;
+    padding: 1rem 0;
+    margin: 0 0.2rem;
+    box-shadow: 7px 8px 8px var(--caixa-img);
+}
+
+.texto_rodape {
+    padding: 0.2rem;
+    font-size: 1rem;
+}

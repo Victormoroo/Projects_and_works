@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@100&display=swap');
+
+html, body {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+:root {
+    --gray: #495867;
+    --white: #fAEBD7;
+    --black: #000000;
+    --orange: #fe5f55;
+    --white-blue: #bdd5ea;
+    --green: #008000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+header h2 {
+    position: absolute;
+    left: 19.6rem;
+    font-size: 3.5rem;
+}
+
+header {
+    background-color: #495867f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 13rem;
+    font-size: 2.2rem;
+    font-family: 'Anton', sans-serif;
+    border-radius: 0 0 0.7rem 0.7rem;
+    position: fixed;
+    width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 5rem;
+    color: var(--black);
+}
+
+nav ul li a:hover {
+    color: var(--white);
+}
+
+section {
+    max-width: 100%;
+    min-height: 110vh;
+}
+
+.inicio {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bike\ 2.jpg);
+    font-family: 'Anton', sans-serif;
+}
+
+.inicio div {
+    text-align: center;
+    display: inline-block;
+    padding-top: 45vh;
+    padding-left: 16vh;
+}
+
+.inicio div h1 {
+    font-size: 2.6rem;
+}
+
+.inicio div h2 {
+    font-size: 2rem;
+}
+
+.inicio .titulo {
+    padding: 0.4rem;
+}
+
+.inicio button {
+    margin-top: 1.4rem;
+    padding: 1rem 1.7rem;
+    border-radius: 2rem;
+    font-size: 1.7rem;
+    background-color: var(--orange);
+    border: none;
+}
+
+.inicio button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.inicio button a {
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Anton', sans-serif;
+}
+
+.inicio button a:hover {
+    color: var(--white);
+}
+
+.produtos {
+    background-color: var(--orange);
+}
+
+.contato {
+    background-color: var(--white-blue);
+}
+
+.contato .titulo-contato {
+    display: inline-block;
+
+}
+
+.contato form {
+    margin-top: 15vh;
+    border: 0.3rem solid var(--gray);
+    display: inline-block;
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    margin-left: 34%;
+}
+
+.nome, .email, .tel, .duvida, .mensagem {
+    display: block;
+    font-size: 2rem;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.nome-caixa, .email-caixa, .tel-caixa {
+    width: 32rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.nome-caixa, .email-caixa, .tel-caixa {
+    margin-bottom: 1.5rem;
+}
+
+.bike-modelo .estilo-bike{
+    margin-left: 2.5rem;
+}
+
+.bike-modelo label{
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.mensagem{
+    margin-top: 1.5rem;
+}
+
+.mensagem-caixa {
+    width: 45rem;
+    height: 18rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.botao {
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 40%;
+    background-color: var(--gray);
+    width: 9rem;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    color: var(--white);
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.produtos {
+    text-align: center;
+}
+
+.produtos .page2 {
+    padding: 11rem 0 4rem 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.produtos .mtb, .speed {
+    width: 30rem;
+}
+
+.caixa-mtb, .caixa-speed {
+    display: inline-block;
+    width: 30rem;
+    margin: 0 5rem;
+}
+
+.caixa-speed {
+    margin-top: 3rem;
+}
+
+.produtos button {
+    background-color: var(--green);
+    border: none;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 1.8rem;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.produtos p {
+    font-size: 3rem;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.produtos button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: var(--gray);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.07rem;
+}
+
+footer .linkedin {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+footer img {
+    margin-top: 0.7rem;
+}
