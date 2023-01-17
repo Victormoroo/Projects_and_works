@@ -1,0 +1,45 @@
+:root {
+    --White-Puple: #2A2141;
+    --Dark-Puple: #0F0D13;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Dark-Puple);
+}
+
+#app * {
+    border: 1px solid red;
+}
+
+#app {
+    display: grid;
+    grid-template-areas: 
+    'A B'
+    'A C';
+
+    gap: 32px;
+}
+
+#box-1 {
+    grid-area: A;
+    padding: 50px 38px;
+}
+
+#box-2 {
+    grid-area: B;
+}
+
+#box-3 {
+    grid-area: C;
+}
+
+.player {
+    background-color: var(--White-Puple);
+    padding: 28px; /*Ele vai levar como consideração essa especificação apenas para a box 2 e 3, pois a 1 tem um hierarquia maior e ja esta setado outro padding */
+}
