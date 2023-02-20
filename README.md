@@ -1,2 +1,2 @@
-# Projetos e Trabalhos
-Aqui estão todos os meus trabalhos da faculdade e alguns projetos pessoais!
+# Projets and Works
+Here are all my college work and some personal projects!
